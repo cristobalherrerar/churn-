@@ -89,3 +89,18 @@ g2 <- ggplot(top100, aes(x = rank, y = prob_logit, color = as.factor(Churn))) +
 
 print(g2)
 ggsave("figura2_top100.png", plot = g2, width = 8, height = 5, dpi = 300)
+
+# Análisis de Churn - Iván Mayorga
+
+## Contribuciones al proyecto
+
+# Revisión y validación del modelo Logit y Probit
+# Interpretación de coeficientes: CHI Score y DaysSinceLogin
+# Análisis de la matriz de confusión y limitaciones del modelo
+# Revisión de la tabla descriptiva y estadísticas de la muestra
+
+## Hallazgos principales
+
+# El CHI Score es el predictor más relevante de satisfacción
+# Los días de inactividad son la señal más temprana de churn
+# El modelo Logit presenta mejor ajuste (AIC = 2464.3)
