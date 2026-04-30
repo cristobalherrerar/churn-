@@ -104,3 +104,5 @@ ggsave("figura2_top100.png", plot = g2, width = 8, height = 5, dpi = 300)
 # El CHI Score es el predictor más relevante de satisfacción
 # Los días de inactividad son la señal más temprana de churn
 # El modelo Logit presenta mejor ajuste (AIC = 2464.3)
+
+# El modelo sugiere que el churn no ocurre de forma repentina, sino que está precedido por una fase de desconexión gradual del usuario.
